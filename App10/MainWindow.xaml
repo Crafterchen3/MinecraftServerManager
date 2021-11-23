@@ -1,0 +1,24 @@
+﻿<Window
+    x:Class="ServerManager.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:ServerManager"
+    xmlns:local1="using:App10.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+
+
+    <Frame
+        x:Name="Content"
+        HorizontalAlignment="Stretch"
+        VerticalAlignment="Stretch"
+        Content="{x:Bind MainPage}">
+        <Frame.ContentTransitions>
+            <TransitionCollection>
+                <NavigationThemeTransition />
+            </TransitionCollection>
+        </Frame.ContentTransitions>
+    </Frame>
+</Window>
